@@ -1,0 +1,26 @@
+[
+    {
+        "command": "g++ -o src/gdexample.linux.template_debug.x86_64.o -c -std=c++17 -fPIC -Wwrite-strings -m64 -march=x86-64 -O2 -DLINUX_ENABLED -DUNIX_ENABLED -DDEBUG_ENABLED -DDEBUG_METHODS_ENABLED -DNDEBUG -Igodot-cpp/gdextension -Igodot-cpp/include -Igodot-cpp/gen/include -Isrc src/gdexample.cpp",
+        "directory": "/home/nobu/projects/godot-playground",
+        "file": "src/gdexample.cpp",
+        "output": "src/gdexample.linux.template_debug.x86_64.o"
+    },
+    {
+        "command": "g++ -o src/register_types.linux.template_debug.x86_64.o -c -std=c++17 -fPIC -Wwrite-strings -m64 -march=x86-64 -O2 -DLINUX_ENABLED -DUNIX_ENABLED -DDEBUG_ENABLED -DDEBUG_METHODS_ENABLED -DNDEBUG -Igodot-cpp/gdextension -Igodot-cpp/include -Igodot-cpp/gen/include -Isrc src/register_types.cpp",
+        "directory": "/home/nobu/projects/godot-playground",
+        "file": "src/register_types.cpp",
+        "output": "src/register_types.linux.template_debug.x86_64.o"
+    },
+    {
+        "command": "g++ -o src/gdexample.os -c -std=c++17 -fPIC -Wwrite-strings -m64 -march=x86-64 -O2 -fPIC -DLINUX_ENABLED -DUNIX_ENABLED -DDEBUG_ENABLED -DDEBUG_METHODS_ENABLED -DNDEBUG -Igodot-cpp/gdextension -Igodot-cpp/include -Igodot-cpp/gen/include -Isrc src/gdexample.cpp",
+        "directory": "/home/nobu/projects/godot-playground",
+        "file": "src/gdexample.cpp",
+        "output": "src/gdexample.os"
+    },
+    {
+        "command": "g++ -o src/register_types.os -c -std=c++17 -fPIC -Wwrite-strings -m64 -march=x86-64 -O2 -fPIC -DLINUX_ENABLED -DUNIX_ENABLED -DDEBUG_ENABLED -DDEBUG_METHODS_ENABLED -DNDEBUG -Igodot-cpp/gdextension -Igodot-cpp/include -Igodot-cpp/gen/include -Isrc src/register_types.cpp",
+        "directory": "/home/nobu/projects/godot-playground",
+        "file": "src/register_types.cpp",
+        "output": "src/register_types.os"
+    }
+]
